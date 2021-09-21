@@ -1,0 +1,110 @@
+body {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  font-family: "Big Shoulders Stencil Display", cursive;
+
+  main {
+    margin: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: red;
+
+    h1 {
+      font-size: 85px;
+      text-shadow: 2px 2px white;
+      font-weight: 900;
+    }
+    p {
+      font-size: 20px;
+      margin-top: 12%;
+      font-weight: 400;
+    }
+    .attempt {
+      //text-shadow: 1.5px 1.5px white;
+      font-size: 20px;
+      font-weight: 400;
+    }
+    .underScore {
+      margin-top: 2%;
+      margin-bottom: 2%;
+      font-size: 25px;
+      font-weight: 400;
+    }
+    .img {
+      margin-top: 2%;
+      border-radius: 5px;
+    }
+    .letters {
+      margin: 30px;
+      button {
+        background-color: black;
+        color: white;
+        padding: 7px;
+        display: inline-block;
+        border: 2px;
+        text-align: center;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+
+        &:hover {
+          background-color: red;
+        }
+      }
+    }
+
+    #tryAgain {
+      font-family: "Big Shoulders Stencil Display", cursive;
+      display: inline-block;
+      font-size: 28px;
+      background-color: red;
+      border: none;
+      display: block;
+      width: 150px;
+      height: 50px;
+      margin: 50px 0;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all 0.5s linear;
+      &:hover {
+        transition-property: all 0.5s;
+        transition-duration: 0.3s;
+        letter-spacing: 3px;
+        text-shadow: 1.5px 1.5px white;
+      }
+    }
+  }
+
+  #win {
+    visibility: hidden;
+  }
+
+  #fail {
+    visibility: hidden;
+  }
+
+  #tryAgain {
+    visibility: hidden;
+  }
+
+  #win,
+  #fail {
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 3.5em;
+    color: red;
+  }
+
+  #win .letter,
+  #fail .letter {
+    display: inline-block;
+  }
+}
