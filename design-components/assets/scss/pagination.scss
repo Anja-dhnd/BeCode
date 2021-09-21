@@ -1,0 +1,36 @@
+@import "./variables";
+
+body {
+  .pagination {
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    background-color: #e5e5e5;
+    justify-content: center;
+    font-weight: bold;
+    p {
+      padding-left: 30px;
+      padding-right: 35px;
+    }
+    div {
+      display: flex;
+      .first {
+        background-color: #e5e5e5;
+        color: black;
+      }
+      button {
+        font-family: $txtFont;
+        background-color: rgb(59, 68, 79);
+        color: white;
+        margin-right: 5px;
+        width: 70px;
+        height: 30px;
+        border-radius: 5px;
+        border-width: 0;
+        &:hover {
+          background-color: #129fea;
+        }
+      }
+    }
+  }
+}

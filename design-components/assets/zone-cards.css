@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Roboto+Slab:wght@100;400;600&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+body .title {
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+}
+body .title .more {
+  margin-left: 50%;
+  margin-top: 5%;
+  color: gray;
+}
+body .cards {
+  display: flex;
+  justify-content: center;
+}
+body .cards .card {
+  width: 200px;
+  padding: 5px;
+  margin-left: 1%;
+  border-radius: 10px;
+}
+body .cards .priceCom {
+  width: 80%;
+}
+body .cards .priceCom .textColor {
+  color: gray;
+}
+body .cards .starCom {
+  font-size: 12px;
+  text-decoration: none;
+  color: black;
+}
+@media only screen and (max-width: 1230px) {
+  body .cards {
+    flex-wrap: wrap;
+  }
+  body .card {
+    margin-top: 2%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  body .cards {
+    flex-direction: column;
+    align-content: center;
+  }
+  body .card {
+    margin-top: 8%;
+  }
+  body .title {
+    flex-direction: column;
+    text-align: center;
+  }
+  body .more {
+    margin-left: 0;
+    text-align: center;
+  }
+}/*# sourceMappingURL=zone-cards.css.map */

@@ -1,0 +1,63 @@
+@import "./variables";
+
+body {
+  font-family: $txtFont;
+  .title {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    .more {
+      margin-left: 50%;
+      margin-top: 5%;
+      color: gray;
+    }
+  }
+  .cards {
+    display: flex;
+    justify-content: center;
+    .card {
+      width: 200px;
+      padding: 5px;
+      margin-left: 1%;
+      border-radius: 10px;
+    }
+    .priceCom {
+      width: 80%;
+      .textColor {
+        color: gray;
+      }
+    }
+    .starCom {
+      font-size: 12px;
+      text-decoration: none;
+      color: black;
+    }
+  }
+
+  @media only screen and (max-width: 1230px) {
+    .cards {
+      flex-wrap: wrap;
+    }
+    .card {
+      margin-top: 2%;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    .cards {
+      flex-direction: column;
+      align-content: center;
+    }
+    .card {
+      margin-top: 8%;
+    }
+    .title {
+      flex-direction: column;
+      text-align: center;
+    }
+    .more {
+      margin-left: 0;
+      text-align: center;
+    }
+  }
+}

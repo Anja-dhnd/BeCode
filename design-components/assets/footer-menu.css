@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Roboto+Slab:wght@100;400;600&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #303030;
+  margin: 0;
+}
+body footer {
+  justify-content: center;
+  display: flex;
+  background-color: #1e3244;
+  margin: 5%;
+}
+body footer li {
+  list-style-type: none;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.555);
+}
+body footer .title {
+  font-family: "Roboto Slab", serif;
+  color: white;
+  font-weight: 400;
+}
+body footer .topRows {
+  display: flex;
+  line-height: 32px;
+}
+body footer .bottom {
+  display: flex;
+  line-height: 32px;
+  margin-top: 3%;
+  text-decoration: none;
+}
+body footer .bottom .search {
+  background: transparent;
+  border: none;
+  height: 10px;
+  margin-left: 3%;
+  padding-top: 25px;
+  border-bottom: 1px solid gray;
+  color: white;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 1150px) {
+  footer {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .imgDjab {
+    width: 270px;
+    margin-left: 2%;
+  }
+
+  .marginUl {
+    margin-left: 3%;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .topRows {
+    flex-direction: column;
+    width: 450px;
+  }
+
+  .bottom {
+    flex-direction: column;
+    width: 450px;
+  }
+}/*# sourceMappingURL=footer-menu.css.map */

@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Roboto+Slab:wght@100;400;600&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+body .first {
+  display: flex;
+  align-items: center;
+}
+body .first h3 {
+  margin: 1%;
+  flex-grow: 1;
+}
+body .first img {
+  padding-left: 1rem;
+  width: 0.5rem;
+}
+body .second {
+  height: 20rem;
+  display: flex;
+  flex-flow: column wrap;
+}
+body .second .block {
+  width: 50%;
+}
+body .second .block img {
+  width: 12%;
+  border-radius: 50%;
+}
+
+h5 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.container {
+  padding: 1rem 2rem;
+}
+.container .more {
+  font-size: smaller;
+  color: gray;
+}
+.container .date {
+  font-size: smaller;
+  color: gray;
+}
+.container .name {
+  font-size: smaller;
+  margin-bottom: 1%;
+}
+
+.img {
+  display: flex;
+  align-items: center;
+}
+.img .data {
+  margin-left: 5%;
+}
+
+hr {
+  height: 1px;
+  background-color: #aaaaaa;
+  border: none;
+}
+
+@media screen and (min-width: 1225px) {
+  div.second {
+    height: 30rem;
+  }
+}
+@media screen and (min-width: 775px) and (max-width: 1225px) {
+  div.second {
+    height: 25rem;
+  }
+}
+@media screen and (max-width: 775px) {
+  div.second {
+    flex-wrap: nowrap;
+  }
+  div.second .block {
+    width: 100%;
+  }
+}/*# sourceMappingURL=related-links.css.map */

@@ -1,0 +1,59 @@
+@import "./variables";
+
+body {
+  font-family: $txtFont;
+  background-image: url("/assets/img/hero-image.jpg");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  .container {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    align-items: inherit;
+    align-self: flex-start;
+    padding-top: 10%;
+    padding-left: 8%;
+    line-height: 130%;
+    h1 {
+      font-family: $titleFont;
+      font-size: 45px;
+      max-width: 300px;
+      line-height: 130%;
+    }
+    .txt {
+      max-width: 450px;
+      line-height: 150%;
+      padding-bottom: 10px;
+    }
+    button {
+      background-color: #e9ba2c;
+      font-family: $txtFont;
+      font-weight: 600;
+      width: 215px;
+      height: 65px;
+      border: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    background-size: 550px;
+  }
+  h1 {
+    font-size: 20px;
+    padding-top: 25px;
+  }
+  button {
+    width: 180px;
+    height: 35px;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1200px) {
+  body {
+    background-size: 700px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+}
