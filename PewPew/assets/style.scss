@@ -1,0 +1,185 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=VT323&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+// BANNER
+html {
+  height: 100%;
+
+body {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: radial-gradient(rgba(#7600bf, 0.5), transparent),
+    linear-gradient(#0b161e, #202076);
+}
+
+.lines {
+  $color: #59c1fe;
+  position: fixed;
+  width: 100vw;
+  height: 5em;
+  background: linear-gradient(
+    rgba($color, 0.2) 20%,
+    $color 40%,
+    $color 60%,
+    rgba($color, 0.2) 80%
+  );
+  background-size: 1px 0.5em;
+  box-shadow: 0 0 1em rgba($color, 0.4);
+  transform: translateY(-1em);
+  left: 0;
+}
+
+h1 {
+  position: relative;
+  font-family: "Exo";
+  font-size: 7em;
+  margin: 0;
+  transform: skew(-15deg);
+  letter-spacing: 0.03em;
+  span:first-child {
+    display: block;
+    text-shadow: 0 0 0.1em #8ba2d0, 0 0 0.2em black, 0 0 5em #165ff3;
+    -webkit-text-stroke: 0.06em rgba(black, 0.5);
+  }
+
+  span:last-child {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: linear-gradient(
+      #032d50 25%,
+      #00a1ef 35%,
+      white 50%,
+      #20125f 50%,
+      #8313e7 55%,
+      #ff61af 75%
+    );
+    -webkit-text-stroke: 0.01em #94a0b9;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+h2 {
+  font-family: "Mr Dafoe";
+  margin: 0;
+  font-size: 5.5em;
+  margin-top: -0.6em;
+  color: white;
+  text-shadow: 0 0 0.05em #fff, 0 0 0.2em #fe05e1, 0 0 0.3em #fe05e1;
+  transform: rotate(-7deg);
+}
+
+.container {
+  $main: #7d41e6;
+  $glow: rgba(#2e26ff, 0.4);
+
+  background-size: 30px 30px;
+  width: 200vw;
+  height: 300vh;
+  position: absolute;
+  bottom: -120vh;
+  transform: rotateX(-100deg);
+}
+}
+// CANVAS
+
+.grid {
+	width: 300px;
+	height: 300px;
+	border: solid black 1px;
+	display: flex;
+	flex-wrap: wrap;
+  background-color: white;
+  div {
+    width: 20px;
+    height: 20px;
+  }
+  .invader {
+    background-color: purple;
+    border-radius: 10px;
+  }
+
+  .shooter {
+    background-color: palevioletred;
+  }
+
+  .laser {
+    background-color: orange;
+  }
+
+  .boom {
+    background-color: red;
+  }
+  
+
+}
+// BUTTONS
+.results {
+  color: white;
+}
+.buttonPlay {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  .start {
+    color: white;
+    border: unset;
+    background-color: #ff61af;
+    font-size: 25px;
+    font-family: "VT323", monospace;
+    margin-right: 10px;
+    padding: 12px;
+    width: 350px;
+    border-radius: 5px;
+    transition: 0.5s ease-in-out;
+    box-shadow: inset 3px 3px 8px #ff61af;
+    &:hover {
+      box-shadow: 5px 5px 20px 0px #ff61af;
+      transform: translateY(-5px);
+    }
+  }
+  .reset {
+    color: white;
+    border: unset;
+    background-color: #ff61af;
+    font-family: "VT323", monospace;
+    font-size: 25px;
+    margin-right: 10px;
+    padding: 12px;
+    width: 350px;
+    border-radius: 5px;
+    transition: 0.5s ease-in-out;
+    box-shadow: inset -3px -3px 8px #ff61af;
+    &:hover {
+      box-shadow: 5px 5px 20px 0px #ff61af;
+      transform: translateY(-5px);
+    }
+  }
+  // .target {
+  //   color: white;
+  //   text-align: center;
+  //   border: unset;
+  //   background-color: #ff61af;
+  //   font-size: 20px;
+  //   margin-left: 8%;
+  //   width: 250px;
+  //   padding: 12px;
+  //   border-radius: 5px;
+  //   transition: 0.5s ease-in-out;
+  //   box-shadow: inset 3px 3px 8px #ff61af;
+  // }
+}

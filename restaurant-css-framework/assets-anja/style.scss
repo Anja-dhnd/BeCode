@@ -1,0 +1,106 @@
+@import "./variables";
+
+//BASE
+
+body {
+  font-family: ($tfont);
+}
+
+// NAVBAR
+
+header {
+  color: $bancolor;
+  a {
+    color: $bancolor;
+    font-family: $tfont;
+    font-weight: weight("bold");
+    &:hover {
+      color: $tcolor;
+    }
+  }
+  .bg-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 8%;
+  }
+  .navbar-toggler-icon {
+    background-image: url("https://mdbcdn.b-cdn.net/img/svg/hamburger2.svg?color=fff");
+  }
+
+  /*JUMBO*/
+
+  .jumbotron {
+    text-align: center;
+    .lead {
+      font-weight: weight("regular");
+      font-style: italic;
+    }
+
+    button {
+      background-color: $bancolor;
+      color: $tcolor;
+      border: none;
+      &:hover {
+        background-color: $tcolor;
+        box-shadow: $bancolor;
+      }
+    }
+    .display-4 {
+      padding: 10%;
+      font-family: $hfont;
+      text-align: center;
+      font-size: 600%;
+    }
+  }
+}
+
+/*MAIN*/
+main {
+  justify-content: center;
+  h2 {
+    padding-top: 2%;
+    font-family: $hfont;
+    color: $tcolor;
+  }
+
+  h4 {
+    font-family: $tfont;
+    font-weight: 100;
+    color: $tcolor;
+  }
+  p {
+    padding: 4%;
+  }
+  #middle {
+    padding: 2%;
+  }
+}
+
+/*FOOTER*/
+
+footer {
+  font-family: $tfont;
+  color: $bancolor;
+  font-size: small;
+
+  .bg-image {
+    padding: 2%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  h4 {
+    font-family: $hfont;
+    padding-bottom: 3%;
+  }
+  .rowf {
+    padding-top: 3%;
+  }
+  a {
+    color: $bancolor;
+    font-family: $tfont;
+    &:hover {
+      color: $tcolor;
+    }
+  }
+}

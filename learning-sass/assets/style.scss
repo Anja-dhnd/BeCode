@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(226, 184, 18);
+    padding: 50px;
+    .coucou {
+        font-family: 'Courier New', Courier, monospace;
+        color: rgb(139, 0, 81);
+            a {
+            background-color: rgb(255, 0, 179);
+            color: crimson;
+            &:hover {
+                background-color: darkgreen;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+        
+

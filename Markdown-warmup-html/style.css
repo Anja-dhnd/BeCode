@@ -1,0 +1,66 @@
+ 
+* {
+    box-sizing: border-box;
+  }
+
+header {
+    padding-top: 30px;
+    padding-bottom: 25px;
+    background-image: url("skyrim.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    text-align: center;
+}
+body {
+    margin: 20px;
+    padding-left: 5px;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 100%;
+    text-align: center;
+}
+main {
+    padding-top: 20px;
+}
+  h1 {
+    font-family: 'Mate SC', serif;
+    font-size: 45px;
+    font-weight: bold;
+}
+q {
+    font-family: 'Mate SC', serif;
+    color: whitesmoke;
+}
+h2, h3, h4 {
+    font-family: 'Mate SC', serif;
+    color: #01262f;
+    margin-left: 30px;
+    background-color: lightcyan;
+}
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.selfie {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 
+.table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    text-align: center;
+} 
+
+.sublist, .sublist2 {
+    list-style: disc;
+} 
+.one, .two, .three, .four, .five, .six, .seven  {
+    list-style: none;
+} 

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+      <!-- A FAIRE :  pour chaque lot de 3 images, recréer un fichier html, copier-coller ce code, 
+    remplacer le src des images et mettre à jour le href de la barre de navigation avec le fichier html correspondant -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assetes-e/favicon_io/apple-touch-icon.png">
+     <link rel="icon" type="image/png" sizes="32x32" href="assetes-e/favicon_io/favicon-32x32.png">
+     <link rel="icon" type="image/png" sizes="16x16" href="assetes-e/favicon_io/favicon-16x16.png">
+     <link rel="manifest" href="assetes-e/favicon_io/site.webmanifest">
+
+    <title>Photos</title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+      integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets-anja/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+      integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+    <header>
+
+        <!-- NAVBAR - NE PAS TOUCHER -->
+
+        <div class="bg-image" style="background-image: url(assets-anja/index-img/ban.jpg);">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand ml-5" href="index.html"><img src="assets-m/images/logo.svg" width="80" height="100" alt="logo"></a>
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item active mx-5">
+                    <a class="nav-link" href="Menu.html">Menu <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item mx-5">
+                    <a class="nav-link" href="Map.html">Restaurant</a>
+                    </li>
+                    <li class="nav-item mx-5">
+                    <a class="nav-link" href="image.html">Pictures</a>
+                    </li>
+                    <li class="nav-item mx-5">
+                    <a class="nav-link " href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                </div>
+            </nav>
+
+            <!-- JUMBOTRON - NE PAS TOUCHER-->
+
+            <div class="jumbotron jumbotron-fluid">
+                <h1 class="display-4 p-2">Gallery</h1>
+                <p class="lead">Discover the real taste of Asian cuisine.</p>
+                <p class="lead2">
+                  <button class="btn btn-primary btn-lg" href="#" role="button">RESERVE TABLE</button>
+                </p>
+              </div>
+        </div>
+    </header>
+    <body>
+        <br>
+        <br>
+          <!-- IMAGES - REMPLACER LES SRC -->
+        <div class="row text-center p-5">
+      <h1 style="color: #cb6c56; font-family: Handlee, cursive;">Some pictures to make your mouth water...</h1>
+    </div>
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <img src="assets-m/images/img10.png" class="col-md-4 col-sm-12 col-xs-12 img-fluid p-3" alt="sushi">
+                <img src="assets-m/images/img5.png" class="col-md-4 col-sm-12 col-xs-12 img-fluid p-3" alt="crevettes">
+                <img src="assets-m/images/img2.png" class="col-md-4 col-sm-12 col-xs-12 img-fluid p-3" alt="cuisine">
+              </div>
+                <!-- PAGINATION - METTRE A JOUR LES HREF -->
+        <nav aria-label="Page navigation example">
+          <ul class="pagination justify-content-center p-5;">
+            <li class="page-item"><a class="page-link" href="Menu.html">Menu</a></li>
+          <li class="page-item"><a class="page-link" href="image1.html">1</a></li>
+          <li class="page-item"><a class="page-link" href="image2.html">2</a></li>
+          <li class="page-item"><a class="page-link" href="image3.html">3</a></li>
+          <li class="page-item"><a class="page-link" href="restaurant.html">Restaurant</a></li>
+          </ul>
+        </nav>
+        </div>
+          <!-- FOOTER - NE PAS TOUCHER -->
+        <footer style="background-image: url(assets-anja/index-img/stone.jpg); background-repeat: repeat-x; background-size: cover;">
+            <div class="container text-center"> 
+              <div class="row">
+                 <section class="col p-4"><h4>Contact us</h4>
+                <p>info@houseofbamboo.com <br>
+                Contact form: <a class="link" href="contact.html"> here</a></p>
+            
+                </section> 
+                 <section class="col p-4"><h4>Work with us</h4>
+                <p>Interested in joining the <br>
+                House of Bamboo team?<br>
+                Keep an eye on our job offers: <br>
+                <a href="#">Apply now</a></p></section> 
+                 <section class="col p-4"><h4>Hours</h4>
+                 <p>open 10am-10pm from Tuesday to Sunday <br>
+      
+                  happy hour 3pm-6pm <br>
+                  
+                  </p></section> 
+              </div>
+              <div class="rowf">
+                <section class="col-md-6 offset-md-3 text-center"> © 2021 House of Bamboo. All Rights Reserved. <br>
+                  Website development by <br>
+                  <a class="link" href="https://github.com/juju2307">Julie Metz</a>, <a class="link" href="https://github.com/Anja-dhnd">Anaïs Dehandschutter</a> <br>
+                  <a class="link" href="https://github.com/marianne-79">Marianne Auquier</a>, <a class="link" href="https://github.com/Hallomoto-beta">Emerson Vandeputte</a></section>
+              </div>
+            </footer>
+          <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+          <script>
+            AOS.init();
+          </script>
+    </body>
+    </html>

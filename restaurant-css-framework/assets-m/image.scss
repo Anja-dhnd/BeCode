@@ -1,0 +1,91 @@
+
+
+  .phtalign {
+    max-width: auto;
+    max-height: 50%;
+    vertical-align: top;
+  }
+  
+  p {
+    font-family: "roboto", sans serif;
+    margin-bottom: 100rem;
+  }
+  
+  .container {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  body {
+    color: #f2f5e2;
+    font-family: "Roboto", sans serif;
+  }
+  
+  header a {
+    color: #f2f5e2;
+    font-family: "Roboto", sans serif;
+    font-weight: 700;
+  }
+  
+  header a:hover {
+    color: #cb6c56;
+  }
+  
+  header .bg-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 8%;
+  }
+  
+  header .navbar-toggler-icon {
+    background-image: url("https://mdbcdn.b-cdn.net/img/svg/hamburger2.svg?color=fff");
+  }
+  
+  header .jumbotron {
+    text-align: center;
+  }
+  
+  header .jumbotron .lead {
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  header .jumbotron button {
+    background-color: #f2f5e2;
+    color: #cb6c56;
+    border: none;
+  }
+  
+  header .jumbotron button:hover {
+    background-color: #cb6c56;
+    -webkit-box-shadow: #f2f5e2;
+            box-shadow: #f2f5e2;
+  }
+  
+  header .jumbotron .display-4 {
+    padding: 10%;
+    font-family: "Handlee", cursive;
+    text-align: center;
+    font-size: 600%;
+  }
+
+  footer {
+    font-family: $tfont;
+    color: $bancolor;
+    font-size: small;
+    background-repeat: no-repeat;
+    
+    h4 {
+      font-family: $hfont;
+      padding-bottom: 3%;
+    }
+    .rowf {
+      padding-top: 3%;
+    }
+    a {
+      color: $bancolor;
+      font-family: $tfont;
+      &:hover {
+        color: $tcolor;
+      }
+    }
+  }

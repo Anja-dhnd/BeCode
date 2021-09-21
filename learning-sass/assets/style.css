@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #e2b812;
+  padding: 50px;
+}
+header .coucou {
+  font-family: "Courier New", Courier, monospace;
+  color: #8b0051;
+}
+header .coucou a {
+  background-color: #ff00b3;
+  color: crimson;
+}
+header .coucou a:hover {
+  background-color: darkgreen;
+  text-decoration: underline;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,300&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans serif;
+}
+
+header {
+  color: #f2f5e2;
+  /*JUMBO*/
+}
+
+header a {
+  color: #f2f5e2;
+  font-family: "Roboto", sans serif;
+  font-weight: 700;
+}
+
+header a:hover {
+  color: #cb6c56;
+}
+
+header .bg-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 8%;
+}
+
+header .navbar-toggler-icon {
+  background-image: url("https://mdbcdn.b-cdn.net/img/svg/hamburger2.svg?color=fff");
+}
+
+header .jumbotron {
+  text-align: center;
+}
+
+header .jumbotron .lead {
+  font-weight: 400;
+  font-style: italic;
+}
+
+header .jumbotron button {
+  background-color: #f2f5e2;
+  color: #cb6c56;
+  border: none;
+}
+
+header .jumbotron button:hover {
+  background-color: #cb6c56;
+  -webkit-box-shadow: #f2f5e2;
+          box-shadow: #f2f5e2;
+}
+
+header .jumbotron .display-4 {
+  padding: 10%;
+  font-family: "Handlee", cursive;
+  text-align: center;
+  font-size: 600%;
+}
+
+/*MAIN*/
+main {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main h2 {
+  padding-top: 2%;
+  font-family: "Handlee", cursive;
+  color: #cb6c56;
+}
+
+main h4 {
+  font-family: "Roboto", sans serif;
+  font-weight: 100;
+  color: #cb6c56;
+}
+
+/*FOOTER*/
+footer {
+  font-family: "Roboto", sans serif;
+  color: #f2f5e2;
+  font-size: small;
+  background-repeat: no-repeat;
+}
+
+footer h4 {
+  font-family: "Handlee", cursive;
+  padding-bottom: 3%;
+}
+
+footer .rowf {
+  padding-top: 3%;
+}
+
+footer a {
+  color: #f2f5e2;
+  font-family: "Roboto", sans serif;
+}
+
+footer a:hover {
+  color: #cb6c56;
+}
+/*# sourceMappingURL=style.css.map */

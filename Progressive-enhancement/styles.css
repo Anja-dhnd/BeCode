@@ -1,0 +1,118 @@
+body {
+	font-size: 16px;
+	/*font-family: Georgia, 'Times New Roman', Times, serif;*/
+	line-height: 25px;
+	color: #0e1855;
+	font-family: 'Roboto', sans-serif;
+}
+a {
+	color: hotpink;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a:hover {
+	background-color: yellow;
+}
+a:visited {
+	color: purple;
+}
+body {
+	  width: 90%;
+	  margin-left: auto;
+	  margin-right: auto;
+	  background: -webkit-linear-gradient(90deg, rgb(206, 169, 246), rgb(255, 255, 255));
+	  background: linear-gradient(90deg, rgb(206, 169, 246), rgb(255, 255, 255));
+	  background-image: url("https://www.hellovinoth.com/wp-content/uploads/2015/03/New-Website-Background.jpg");
+	  background-repeat: no-repeat;
+	  background-position: bottom right;
+	  background-size: cover;
+}
+q {
+	width: 45%;
+	margin: 0 auto;
+	font-size: 160%;
+	background-color: gainsboro;
+	border-left: solid firebrick 3px;
+	padding-left: 30px;
+}
+blockquote {
+	background-color: gainsboro;
+	border-left: solid firebrick 3px;
+	padding-left: 30px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.villagers{
+	border-left: solid coral;
+}
+.farmer{
+	border-left: solid darkseagreen;
+}
+header > h1 {
+	background-color: lightgoldenrodyellow;
+
+}
+.good{
+	text-transform: capitalize;
+	color: green
+}
+.bad{ 
+	text-transform: capitalize;
+	color: red
+}
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+  
+th, td {
+	text-align: left;
+	padding: 8px;
+}
+  
+tr:nth-child(odd) {
+	background-color: gainsboro;
+}
+.ig {
+	background-image: url("https://raw.githubusercontent.com/becodeorg/CRL-Keller-3.31/master/Assets/bien.png?token=AUFV4MTVXQ74LY7I5C4IBSTAX5OS4");
+	padding-right: 30%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 30px;
+	background-position: 22%;
+	width: auto;
+}
+.ie {
+	background-image: url("https://raw.githubusercontent.com/becodeorg/CRL-Keller-3.31/master/Assets/mal.png?token=AUFV4MW4WL7VYRFXLHQ5OJLAX5RJQ");
+	padding-right: 30%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 30px;
+	background-position: 22%;
+	width: auto;
+}
+.cats {
+	background-image: url("https://raw.githubusercontent.com/becodeorg/CRL-Keller-3.31/master/Assets/chat.png?token=AUFV4MXDWFRCZ2UZOGNTLFDAX5TLM");
+	padding-right: 30%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 30px;
+	background-position: 22%;
+	width: auto;
+}
+.p1 {
+	font-weight: bold;
+}
+section > figure {
+	float: right
+}
+.notification{
+	background:#FFFFDD;
+	padding:.5rem 1rem;
+	border:3px solid #DDDDCC;
+	width:250px;
+	font-weight:bold;
+	color: #333300;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
