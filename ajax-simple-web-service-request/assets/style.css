@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400&display=swap");
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  padding-top: 5rem;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+body #quote {
+  margin: auto;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 23px;
+  padding: 20px;
+}
+body img {
+  border-radius: 100%;
+  width: 300px;
+  height: auto;
+}
+body #author {
+  padding: 20px 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+body #num {
+  font-size: 13px;
+  font-family: "Lato";
+}/*# sourceMappingURL=style.css.map */
